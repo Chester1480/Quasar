@@ -1,0 +1,7 @@
+$ quasar dev -m electron
+
+# 给底层的“cordova”可执行文件
+# 传递额外的参数和/或选项：
+$ quasar dev -m electron -- --no-sandbox --disable-setuid-sandbox
+# 在Windows上使用Powershell时：
+$ quasar dev -m electron '--' --no-sandbox --disable-setuid-sandbox
